@@ -18,7 +18,6 @@ body {
     border: 4px solid #9ca3af84;
     border-radius: 50%;
     margin-top: 50px;
-
 }
 
 .bio h1 {
@@ -32,7 +31,7 @@ body {
 .bio .about {
     color: lightgray;
     margin-bottom: 40px;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 
@@ -46,18 +45,17 @@ body {
 .skills {
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
-    max-width: 200px;
-    justify-content: center;
+    gap: 10px;
+    justify-content: center;    max-width: 600px;
+
 }
 
 .skill {
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 15px 15px;
     background-color: #9ca3af84;
     width: 100px;
-    text-align: center;
-    
+    text-align: center;    
 }
 
 .project-section {
@@ -87,7 +85,7 @@ body {
 .info {
     background-color: #35415784;
     padding: 10px 15px;
-
+    flex: 1;
 }
 
 .project img {
@@ -169,7 +167,7 @@ h3 {
     text-decoration: none;
 }
 
-a {
+.project a, .project{
     color: #0073ff;
 }
 
@@ -177,5 +175,8 @@ h2 {
     margin-top: 25px;
 }
 
+button {
+    cursor: pointer;
+}
 
 
