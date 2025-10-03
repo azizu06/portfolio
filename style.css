@@ -1,0 +1,181 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #111827;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #111827;
+    gap: 5px;
+}
+
+.bio img {
+    width: 125px;
+    height: 125px;
+    border: 4px solid #9ca3af84;
+    border-radius: 50%;
+    margin-top: 50px;
+
+}
+
+.bio h1 {
+    margin-bottom: -5px;
+} 
+
+.bio .role {
+    font-size: 16px;
+}
+
+.bio .about {
+    color: lightgray;
+    margin-bottom: 40px;
+    font-size: 12px;
+}
+
+
+.tech {
+    display: flex;
+    flex-direction: column;
+    background-color: #2b3646;
+    align-items: center;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    max-width: 200px;
+    justify-content: center;
+}
+
+.skill {
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #9ca3af84;
+    width: 100px;
+    text-align: center;
+    
+}
+
+.project-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #d3d3d33a;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    flex-basis: 250px;
+    overflow: hidden;
+}
+
+.info {
+    background-color: #35415784;
+    padding: 10px 15px;
+
+}
+
+.project img {
+    object-fit: cover;
+    width: 100%;
+}
+
+h3 {
+    margin-bottom: -5px;
+}
+
+.projects h2 {
+    margin-bottom: -5px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 30px;
+}
+
+.links {
+    display: flex;
+    border-radius: 5px;
+    background-color: transparent;
+    border: none;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.mail, .resume, .icons {
+    background-color: transparent;
+    border: none;
+    border-radius: 3px;
+    
+}
+
+.resume {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 5px 20px;
+}
+
+ .resume i, .mail i {
+    font-size: 10px;
+    color: white;
+    padding-right: 5px;
+}
+
+.icons i {
+    font-size: 24px;
+    color: rgba(175, 175, 175, 0.895);
+}
+
+
+.mail {
+    background-color: #0073ff;
+    padding: 5px 20px;
+}
+
+
+.links2 {
+    display: flex;
+    gap: 5px;
+}
+
+.footer p {
+    margin-top: -10px;
+    color: lightgrey;
+}
+
+
+* {
+    font-weight: lighter;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+a {
+    color: #0073ff;
+}
+
+h2 {
+    margin-top: 25px;
+}
+
+
+
